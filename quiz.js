@@ -68,7 +68,7 @@ const scoreEl = document.getElementById("score");
 
 const nextEl = document.getElementById("next");
 
-showQuestion();
+
 
 nextEl.addEventListener("click", ()=>{
   scoreEl.textContent = `Score : ${score}`;
@@ -102,6 +102,8 @@ function showQuestion(){
 
 });
 }
+
+showQuestion();
 
 
 // For update Question...
